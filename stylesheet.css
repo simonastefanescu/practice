@@ -1,0 +1,68 @@
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    background: #232323 ;
+}
+
+div {
+    height: 200px;
+    background-color: blueviolet; /*de sters*/
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+}
+.first {
+    background: url(https://www.rwlaccount.com/uploads/blog_images/img_1592596173_2841.png);
+}
+
+.second {
+    background: url(https://images.squarespace-cdn.com/content/v1/5c6b1203f4755a314a40b3d5/1550611918862-L16KU6GPC8B3BIVWRKA2/ABS_Recipe_steak.jpg?format=750w);
+}
+.dessert {
+    background: url(http://www.waternishfarm.com/wp-content/uploads/2021/04/tiramisu-6172170_1920-1-1068x400_c.jpg);
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive ;
+    text-align: center;
+    font-size: 75px;
+    color: #aaaaaa;
+    margin: 60px 0 0 0;
+}   
+
+h2 {
+   text-align: center;
+   color: #bbbbbb;
+   font-family: 'Dancing Script', cursive;
+   margin: 0px 0 70px 0;
+}  
+p {
+    color: rgba(255, 255, 255, 1);
+    background: black;
+    background: linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,.4));
+    /*background: -webkit-linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,.4));
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,.4));*/
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    transition: height .5s;
+    
+    
+
+}
+
+
+small {
+    opacity: 0;
+}
+
+.price {
+    float: right;
+}
